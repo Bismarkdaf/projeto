@@ -12,8 +12,9 @@ if(html.classList.contains('light')) {
 
 } else {
 // se tiver sem light mode, manter a imagem normal
-img.setAttribute('src', './assets/Avatar.png')
-img.setAttribute( 'alt', "foto de mayke brito usando oculaos escuros")
+img.setAttribute('src', './assets/avatar.png')
+img.setAttribute('alt', "Foto de mayke usando oculos preto")
+
 }
 
 
