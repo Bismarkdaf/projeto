@@ -33,7 +33,8 @@ body {
     /*
 
     /*background: color image repeat position/size */
-    background: var(--bg-url) no-repeat top center/cover 
+    background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 }
 
 body * {
@@ -164,4 +165,16 @@ transition: background 0.2s;
 footer {
     padding: 24px 0;
     text-align: center;
+}
+
+/* media queries */
+@media (min-width: 700px) {
+:root {
+    --bg-url: url(./Assets/bg-desktop.jpg);
+}
+
+.light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+}
+
 }
