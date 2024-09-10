@@ -8,12 +8,12 @@ const img = document.querySelector("#profile img")
 // subistituir a imagem
 if(html.classList.contains('light')) {
     // se tiver light mode, adicionar imagem light
-    img.setAttribute('src', './assets/avatar-light.png')
+    img.setAttribute('src', './Assets/Avatar-bismark.png.jpeg')
 
 } else {
 // se tiver sem light mode, manter a imagem normal
-img.setAttribute('src', './assets/avatar.png')
-img.setAttribute('alt', "Foto de mayke usando oculos preto")
+img.setAttribute('src', './Assets/Avatar-bismark.png.jpeg')
+img.setAttribute('alt', "Foto de Bismark com camisa de Socorrista")
 
 }
 
